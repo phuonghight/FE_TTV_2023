@@ -1,14 +1,14 @@
-# FE TTV HIT 2023
+# Vue 3 Boilerplate
 
 ## Commands
 
-1. Tải các dependencies.
+1. Install dependencies.
 
 ```bash
 yarn
 ```
 
-2. Chạy môi trường dev
+2. Devlopment enviroment
 
 ```bash
 yarn dev
@@ -28,3 +28,4 @@ yarn build
 - **Style**: [Scss](https://sass-lang.com/)
 - **Icon**: [Tabler](https://tabler-icons.io/)
 - **Vite plugin**: [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import), [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components), [vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages), [vite-plugin-vue-layouts](https://github.com/JohnCampionJr/vite-plugin-vue-layouts)
+- **UI**: [NaiveUI](https://www.naiveui.com/)
