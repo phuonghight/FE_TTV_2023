@@ -1,0 +1,21 @@
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  width: 100%;
+  height: 50px;
+
+  font-weight: bold;
+  border-radius: 32px;
+  cursor: pointer;
+  font-size: 1.8rem;
+  margin-top: 10px;
+}
+
+.btn-primary {
+  background-color: $color-primary;
+  color: white;
+  &:hover {
+    background-color: #eb640b;
+  }
+}
