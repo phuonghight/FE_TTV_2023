@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { useBreakpoints } from '@/hooks/useBreakpoints';
-import useCounter from '@/hooks/useCounter';
+import { useBreakpoints } from "@/composables/useBreakpoints";
+import useCounter from "@/composables/useCounter";
+
 
 const { width, device } = useBreakpoints();
 const { count, increment, decrement } = useCounter();
