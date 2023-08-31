@@ -1,10 +1,13 @@
 <script setup lang="ts">
-import { useBreakpoints } from "@/composables/useBreakpoints";
-import useCounter from "@/composables/useCounter";
-
+import { useBreakpoints } from '@/composables/useBreakpoints';
+import useCounter from '@/composables/useCounter';
 
 const { width, device } = useBreakpoints();
 const { count, increment, decrement } = useCounter();
+
+onMounted(() => {
+  document.title = 'Vue 3 Boilerplate';
+});
 </script>
 
 <template>

@@ -2,8 +2,8 @@ version: '3'
 
 services:
   app:
-    container_name: fe_ttv
-    image: fe_ttv
+    container_name: vue3-boilerplate
+    image: vue3-boilerplate
     build:
       context: .
     ports:

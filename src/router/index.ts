@@ -15,7 +15,7 @@ router.beforeEach(async (from, to, next) => {
 });
 
 router.afterEach((to) => {
-  const defaultDocumentTitle = 'HIT TTV 2023';
+  const defaultDocumentTitle = 'Vue 3 Boilerplate';
   if (to.name) {
     document.title = `${String(to.name)} - ${defaultDocumentTitle}`;
   } else {
